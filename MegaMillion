@@ -1,0 +1,26 @@
+/**
+ * 
+ * @author Mame
+ *
+ */
+import java.util.Random;
+public class MegaMillion {
+
+	public static void main(String[] args) {
+		Random randGen = new Random();
+		
+		System.out.println(randGen.nextInt(60)+1);
+		 int dollar = 20;
+		 int tickets = 5;
+		 
+		 // prompt the user for the amount of dollars to bet on
+		 
+		 //Store amount into amount of dollar variable 
+		 
+		 // prompt the user to enter six numbers 
+		 // create a variable for each value 
+		 // ramdomly generate six numbers and compare
+		 
+		 
+}
+}
