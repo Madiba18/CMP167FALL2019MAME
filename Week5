@@ -1,0 +1,41 @@
+/**
+ * 
+ * @author Mame
+ * @description A gessing game
+ * @created 09/26/19
+ */
+import java.util.Scanner;
+import java.util.Random;
+public class GuessGame {
+	static Scanner in = new Scanner(System.in);
+	static Random rand = new Random();
+	
+	public static void main(String[] args) // main method 
+	{
+		
+		
+		//Introduce the program
+		System.out.println("Welcome to gessing 3000");
+		System.out.println("Would you like to play?");
+		String answer = in.next();
+		
+		while (answer.equalsIgnoreCase("Yes")){
+		System.out.println("Enter a number from 1-10:");
+		int userNumber = in.nextInt();
+		int pcNumber = rand.nextInt(10) + 1;
+		if (userNumber == pcNumber) {
+			System.out.println("You win!");
+		}
+		else {
+			System.out.println("You lost!");
+			System.out.println("The PC chose" +pcNumber);
+		}
+		System.out.println("Would you like to play");
+		answer = in.next();		
+		}
+		System.out.println("Ok dear, come back soon!");
+	}
+	
+
+	}
+
