@@ -16,6 +16,32 @@ public class LoopAaaignment1 {
 		}
 		
 		
+			
+			
+			
+		}
+	}
+	
+	
+
+/**
+ * 
+ * @author Mame
+ *
+ */
+import java.io.InputStream;
+import java.util.Scanner;
+public class LoopAaaignment1 {
+	Scanner scan = new Scanner (System.in);
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int n = 20;
+		for (int i = 1; i < n; i++ ) {
+			 System.out.println(i);	
+		}
+		
+		
 		
 			
 			
@@ -28,6 +54,4 @@ public class LoopAaaignment1 {
 		}
 	}
 	
-	
-
 
