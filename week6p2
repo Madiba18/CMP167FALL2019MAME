@@ -1,0 +1,38 @@
+/**
+ * 
+ * @author Mame
+ *
+ */
+public class Animal {
+
+	public int numLegs; 
+	private int age;
+	
+	public void bark() {
+		
+		System.out.println("woff woff");
+	}
+	
+	public void run() {
+		System.out.println("Come");
+	}
+}
+
+
+
+
+
+
+/**
+ * 
+ * @author Mame
+ *
+ */
+public class AnimalTest {
+	public static void main(String[] args) {
+		Animal dog = new Animal();
+		dog.bark();
+		System.out.println(dog.numLegs);
+	}
+
+}
